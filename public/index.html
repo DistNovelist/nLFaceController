@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>顔ス コントローラー</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <script type="text/javascript" src="nLPlugin.js"></script>
+  <script type="text/javascript" src="jquery-3.7.1.min.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+
+  <input type="text" id="url" value="ws://localhost:22022" />
+  <button type="button" onclick="connect()">Connect</button>
+  <br>
+  State:
+  <label id="state">Closed</label>
+
+  <div>
+    ModelId: 
+    <label id="modelId"></label>
+    <div class="split-preview">
+      <div>
+        <h2>Rules</h2>
+        <table>
+          <tbody id="rulesTable"></tbody>
+        </table>
+        <button onclick="addRule()">Add Rule</button>
+        <button onclick="delRule()">Delete Rule</button>
+        <button onclick="clearInput()">Clear Input</button>
+        <button id="pause" onclick="pause()">Pause</button>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

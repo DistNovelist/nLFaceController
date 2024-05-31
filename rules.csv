@@ -1,0 +1,9 @@
+param,min,max,key
+Yaw,10,90,d
+MouthOpen,0.5,1,k
+Yaw,-90,-10,a
+Pitch,10,90,w
+Pitch,-90,-15,s
+Roll,10,90,h
+Roll,-90,10,g
+MouthSpread,0.7,10,j
