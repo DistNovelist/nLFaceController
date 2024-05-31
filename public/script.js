@@ -65,7 +65,7 @@ var cubismParams = {};
 var keyVals = {};
 // apiから取得したルールデータ
 var rules = [];
-var sendflag = true;
+var sendflag = false;
 function setLiveParameters(message) {
     // liveParams = message.Data.LiveParameters;
     liveParams = {};
